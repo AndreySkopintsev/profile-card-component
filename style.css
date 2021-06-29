@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -56,12 +58,17 @@
 }
 
 h2{
+    color: rgba(0, 0, 0, .7);
     font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 p{
+    margin-top: 10px;
     color: hsl(0, 0%, 59%);
-    font-size: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 span{
@@ -84,4 +91,11 @@ span{
     height: 20%;
     width: 100%;
     border-top: 1px solid hsla(0, 0%, 59%,0.4);
+}
+
+.stat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
