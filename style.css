@@ -99,3 +99,35 @@ span{
     justify-content: center;
     align-items: center;
 }
+
+@media (min-width:400px){
+   
+    .main{
+        width: 30%;
+        height: 70%;
+    }
+
+    .profile{
+        height: 40%;
+    }
+
+    .stats{
+        height: 25%;
+    }
+
+    .circle.top{
+        z-index: 15;
+        position: absolute;
+        top: -300px;
+        left: -150px;
+        height: 700px;
+    }
+    
+    .circle.bottom{
+        z-index: 15;
+        position: absolute;
+        bottom: -400px;
+        right: -150px;
+        height: 700px;
+    }
+}
